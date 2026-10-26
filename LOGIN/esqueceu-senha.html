@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Attento - Recuperar senha</title>
+  <link rel="stylesheet" href="estilos/login.css">
+
+</head>
+<body>
+  <main class="login">
+    <header class="login__brand">
+      <!-- COLOQUE SUA IMAGEM AQUI: troque "logo.png" pelo caminho do seu arquivo -->
+      <img class="login__logo" src="logo.png" alt="Logo Attento">
+      <h1 class="login__name">ATTENTO</h1>
+      <p class="login__tagline">Saúde Integral</p>
+    </header>
+
+    <section class="recover">
+      <h2 class="recover__title">Esqueceu a senha?</h2>
+      <p class="recover__text">
+        Informe o e-mail cadastrado e enviaremos um link para você criar uma nova senha.
+      </p>
+    </section>
+
+    <form class="login__form" action="#" method="post">
+      <label for="email">E-mail</label>
+      <input type="text" id="email" name="email" autocomplete="email" required>
+
+      <button type="submit" class="recover__button">Enviar link</button>
+
+      <a class="recover__back" href="login.html">&larr; Voltar para o login</a>
+    </form>
+  </main>
+</body>
+</html>
